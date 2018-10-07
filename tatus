@@ -1,0 +1,48 @@
+[33mcommit c4633c1612c2e98a6339b2cdec3c08914dc473df[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Sat Oct 6 23:14:21 2018 -0400
+
+    hide pw char and submit form on enter
+
+[33mcommit a24648912137994602ade9405832e00d9664ace2[m
+Merge: 01f0a74 f2dcc6b
+Author: jywkim <jkim589@gmail.com>
+Date:   Sat Oct 6 23:13:32 2018 -0400
+
+    Merge branch 'master' of https://github.com/jywkim/WindowsFormsApp
+
+[33mcommit 01f0a7461e03dfcaf5b433d93d0676afdd0cd9bc[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Sat Oct 6 23:13:03 2018 -0400
+
+    hide pw char and submit form on enter
+
+[33mcommit f2dcc6b8271f8d1c0cd6f97cf7ff221bec09d3ab[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Sat Oct 6 23:03:27 2018 -0400
+
+    hide pw char and submit form on enter
+
+[33mcommit 02294f20fb2d040b7d1f9bb230b1e35525bdf4df[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Thu Oct 4 22:57:37 2018 -0400
+
+    create simple form and connect to mysql db
+
+[33mcommit 46b526cda32d6276302151bd647b1bc32d89dd26[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Thu Oct 4 22:52:50 2018 -0400
+
+    initial commit
+
+[33mcommit 6d7ff05a2d2ca40ddc7d7fdc75342c2821209dd9[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Thu Oct 4 22:50:33 2018 -0400
+
+    Add project files.
+
+[33mcommit 50a8c496348353a1b5ebda857992053f8fb4b609[m
+Author: jywkim <jkim589@gmail.com>
+Date:   Thu Oct 4 22:50:27 2018 -0400
+
+    Add .gitignore and .gitattributes.
