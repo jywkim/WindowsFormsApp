@@ -13,7 +13,7 @@ namespace WindowsFormsApp
 {
     public partial class Form1 : Form
     {
-        MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; password = p@ssw0rd; persistsecurityinfo = True; port = 3306; database = test; SslMode = none");
+        MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; password = {ENTER PASSWORD HERE}; persistsecurityinfo = True; port = 3306; database = test; SslMode = none");
         int i;
         public Form1()
         {
