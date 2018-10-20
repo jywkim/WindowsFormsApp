@@ -34,17 +34,17 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(84, 93);
+            this.textBox1.Location = new System.Drawing.Point(83, 110);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(62, 22);
+            this.textBox1.Size = new System.Drawing.Size(112, 22);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Success!";
+            this.textBox1.Text = "Login Successful!";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(222, 213);
+            this.ClientSize = new System.Drawing.Size(278, 256);
             this.Controls.Add(this.textBox1);
             this.Name = "Form2";
             this.Text = "Form2";
