@@ -40,7 +40,7 @@ namespace WindowsFormsApp
             else
             {
                 this.Hide();
-                Form2 fm = new Form2();
+                Form2 fm = new Form2(textBox1.Text);
                 fm.Show();
             }
 
