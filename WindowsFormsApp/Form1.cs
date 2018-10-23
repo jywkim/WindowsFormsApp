@@ -40,6 +40,7 @@ namespace WindowsFormsApp
             else
             {
                 this.Hide();
+                textBox1.CharacterCasing = CharacterCasing.Upper;
                 Form2 fm = new Form2(textBox1.Text);
                 fm.Show();
             }

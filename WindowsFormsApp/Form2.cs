@@ -15,7 +15,9 @@ namespace WindowsFormsApp
         public Form2(string text)
         {
             InitializeComponent();
-            label1.Text = "Welcome " + text + "!";
+
+            label1.Text = "HI " + text + "!";
+
         }
     }
 }
