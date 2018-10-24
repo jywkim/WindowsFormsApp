@@ -13,7 +13,7 @@ namespace WindowsFormsApp
 {
     public partial class Form1 : Form
     {
-        MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; password = {ENTER PASSWORD HERE}; persistsecurityinfo = True; port = 3306; database = test; SslMode = none");
+        MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; password = rea123; persistsecurityinfo = True; port = 3306; database = test; SslMode = none");
         int i;
         public Form1()
         {
@@ -40,7 +40,8 @@ namespace WindowsFormsApp
             else
             {
                 this.Hide();
-                textBox1.CharacterCasing = CharacterCasing.Upper;
+                textBox1.Text = textBox1.Text.Substring(0, 1).ToUpper() + textBox1.Text.Substring(1);
+                //textBox1.CharacterCasing = CharacterCasing.Upper;
                 Form2 fm = new Form2(textBox1.Text);
                 fm.Show();
             }
