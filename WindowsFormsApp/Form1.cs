@@ -41,17 +41,11 @@ namespace WindowsFormsApp
             {
                 this.Hide();
                 textBox1.Text = textBox1.Text.Substring(0, 1).ToUpper() + textBox1.Text.Substring(1);
-                //textBox1.CharacterCasing = CharacterCasing.Upper;
                 Form2 fm = new Form2(textBox1.Text);
                 fm.Show();
             }
 
             conn.Close();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
         }
     }
 }   

@@ -98,11 +98,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(192, 20);
+            this.label4.Location = new System.Drawing.Point(158, 23);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 25);
+            this.label4.Size = new System.Drawing.Size(130, 25);
             this.label4.TabIndex = 7;
-            this.label4.Text = "JK";
+            this.label4.Text = "Login Form";
             // 
             // linkLabel1
             // 
@@ -113,7 +113,6 @@
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot Password?";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Form1
             // 
