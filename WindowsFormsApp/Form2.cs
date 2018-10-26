@@ -18,5 +18,12 @@ namespace WindowsFormsApp
 
             label1.Text = "Welcome " + text + "!";
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+            Form1 objfrm = new Form1();
+            objfrm.ShowDialog();
+        }
     }
 }
