@@ -47,5 +47,11 @@ namespace WindowsFormsApp
 
             conn.Close();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form3 fm3 = new Form3();
+            fm3.Show();
+        }
     }
 }   
