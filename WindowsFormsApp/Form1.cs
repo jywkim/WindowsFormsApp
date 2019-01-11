@@ -8,12 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using WindowsFormsApp.Auth;
 
 namespace WindowsFormsApp
 {
     public partial class Form1 : Form
     {
-        MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; password = {ENTER PASSWORD HERE}; persistsecurityinfo = True; port = 3306; database = test; SslMode = none");
+        static CredentialContext credentialContext = new CredentialContext();
+        MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; password = " + credentialContext.MySQL_Password + "; persistsecurityinfo = True; port = 3306; database = test; SslMode = none");
         int i;
         public Form1()
         {
